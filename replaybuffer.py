@@ -68,7 +68,7 @@ class UniformReplayBuffer:
 
 
 class ExpertReplayBuffer:
-    def __init__(self,env,example_num=200, terminal_offset=50):
+    def __init__(self, env, example_num=200, terminal_offset=50):
         dataset = env.get_dataset()
         terminals = np.where(dataset['terminals'])[0]
         expert_obs = np.concatenate(
@@ -87,11 +87,3 @@ class ExpertReplayBuffer:
     @property
     def buffer_size(self):
         return self.expert_obs[0]
-
-
-
-
-
-
-
-

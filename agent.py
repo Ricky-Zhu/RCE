@@ -14,6 +14,7 @@ class RceAgent:
         wandb.login()
         wandb.init(
             project="rce_pytorch",
+            group='seed',
             config=vars(args)
         )
         self.env = env

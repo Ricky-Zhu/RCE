@@ -16,7 +16,7 @@ def get_args():
     parser.add_argument('--gamma', type=float, default=0.99)
     parser.add_argument('--entropy-coef', type=float, default=1e-4)
     parser.add_argument('--rollout-steps', type=int, default=201)
-    parser.add_argument('--iterations', type=int, default=3000)
+    parser.add_argument('--iterations', type=int, default=15000)
     parser.add_argument('--evaluation_rollouts', type=int, default=5)
     parser.add_argument('--seed', type=int, default=3)
     parser.add_argument('--save-model-interval', type=int, default=10000)
