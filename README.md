@@ -1,4 +1,4 @@
-# RCE
+# Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classiﬁcation
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)  
 This is the pytorch implementation of ["Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classiﬁcation"](https://arxiv.org/abs/2103.12656).
