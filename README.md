@@ -29,3 +29,6 @@ All the arguments can be found in `argments.py`.
 python trainer.py
 ```
 
+## Results
+### Door-human-v0
+![door-human](imgs/door_human_v0.png)
